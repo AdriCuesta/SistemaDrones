@@ -23,7 +23,7 @@ public abstract class DronBase {
 		
 	}
 	
-	public abstract double calcularTiempoRespuesta();
+	public abstract double calcularTiempoRespuesta(int distanciaMision);
 
 	public String getIdentificador() {
 		return identificador;
