@@ -2,10 +2,10 @@ package drones;
 
 public class DronMontaña extends DronBase {
 
-	private int altitud;
+	private double altitud;
 
 	public DronMontaña(String identificador, int autonomiaMaxima, int velocidadMaxima, boolean estaOperativo,
-			int altitud) {
+			double altitud) {
 		super(identificador, autonomiaMaxima, velocidadMaxima, estaOperativo);
 
 		if (altitud < 0) {
@@ -33,7 +33,7 @@ public class DronMontaña extends DronBase {
 
 	}
 
-	public int getAltitud() {
+	public double getAltitud() {
 		return altitud;
 	}
 
