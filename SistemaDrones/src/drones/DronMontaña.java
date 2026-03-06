@@ -33,4 +33,12 @@ public class DronMontaña extends DronBase {
 
 	}
 
+	public int getAltitud() {
+		return altitud;
+	}
+
+	public void setAltitud(int altitud) {
+		this.altitud = altitud;
+	}
+
 }
