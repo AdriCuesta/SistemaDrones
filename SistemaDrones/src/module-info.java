@@ -1,2 +1,3 @@
 module SistemaDrones {
+	requires junit;
 }
