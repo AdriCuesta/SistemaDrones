@@ -23,7 +23,7 @@ public class DronMontaña extends DronBase {
 			throw new IllegalArgumentException("La distancia de la mision no puede ser negativa");
 		}
 		super.comprobarOperatividad();
-		int tiempoRespuesta = (distanciaMision / super.getVelocidadMaxima() * altitud);
+		double tiempoRespuesta = (distanciaMision / super.getVelocidadMaxima() * altitud);
 
 		if (tiempoRespuesta > super.getAutonomiaMaxima()) {
 			throw new IllegalArgumentException("El tiempo de respuesta supera la autonomia del dron");
