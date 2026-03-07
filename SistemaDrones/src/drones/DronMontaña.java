@@ -4,6 +4,9 @@ package drones;
  * Clase DronMontaña que representa a un dron de tipo montaña. La clase esta
  * especializada a partir de {@link DronBase} Incluye informacion específica
  * sobre la altitud
+ * @author AdrianCuesta
+ * @version 1.0
+ * @see DronBase
  */
 public class DronMontaña extends DronBase {
 	/**
